@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0d0d0f;
+  --text: #e2e8f0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-image: radial-gradient(circle at 50% 0%, #1e1e24 0%, #0d0d0f 70%);
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom 3D Scrollbar for Biker Theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0f;
+  border-left: 1px solid #2a2a35;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ff5e00, #b34100);
+  border-radius: 5px;
+  border: 1px solid #1e1e24;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #ff7b33, #d95300);
+}
+
+/* Hide default cursor for custom cursor implementation */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}

@@ -1,0 +1,9 @@
+TypeError: next is not a function
+    at model.<anonymous> (C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\models\User.js:27:5)
+    at async Kareem.execPre (C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\node_modules\kareem\index.js:70:24)
+    at async model.$__save (C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\node_modules\mongoose\lib\model.js:371:5)
+    at async model.save (C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\node_modules\mongoose\lib\model.js:614:5)
+    at async C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\node_modules\mongoose\lib\model.js:2750:9
+    at async Promise.all (index 0)
+    at async model.create (C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\node_modules\mongoose\lib\model.js:2735:11)
+    at async C:\Users\soory\Downloads\odoo hackathon\FleetFlow\backend\seed.js:17:9
